@@ -239,8 +239,7 @@ header.sticky {
   left: 0;
   right: 0;
   width: 100%;
-  z-index: 995 !important;
-  background: white; }
+  z-index: 995 !important; }
 
 .navbar-toggler {
   width: 50px;
@@ -252,6 +251,7 @@ header.sticky {
     fill: #646464; }
 
 .electro-header {
+  background: white;
   margin-bottom: 40px; }
   .electro-header .navbar {
     position: static;
@@ -635,6 +635,8 @@ header.sticky {
     .kondi-work_center .image {
       position: absolute;
       top: 0;
+      left: -webkit-calc(50% - 80px);
+      left: calc(50% - 80px);
       z-index: 2;
       width: 160px;
       height: 320px;
@@ -2452,10 +2454,13 @@ button.swiper-pagination-bullet {
             order: 3 !important; } }
 
 @media screen and (min-width: 992px) {
+  header.sticky .btn-custom-header button {
+    padding: 10px 15px; }
   header.sticky .mobile-menu {
     -webkit-box-shadow: none !important;
             box-shadow: none !important; }
   header.sticky .electro-header {
+    background: #ffffff;
     padding-top: 10px;
     padding-bottom: 10px;
     margin-bottom: 0; }
@@ -2621,8 +2626,6 @@ button.swiper-pagination-bullet {
             order: 3; } }
 
 @media screen and (max-width: 1200px) {
-  header.sticky .btn-custom-header button {
-    padding: 10px 15px; }
   .kondi-work_stage {
     margin-top: 30px; }
   .ac-review_item-image {
@@ -2635,12 +2638,12 @@ button.swiper-pagination-bullet {
     -webkit-box-shadow: none !important;
             box-shadow: none !important; }
   header.sticky .electro-header {
+    background: rgba(255, 255, 255, 0.98);
+    border-bottom: 1px solid #fbddda;
     margin-bottom: 0; }
     header.sticky .electro-header_menu a {
       margin-right: 0 !important; }
   .electro-header {
-    background: #fff;
-    border-bottom: 1px solid rgba(131, 131, 131, 0.356);
     margin-bottom: 0;
     padding-top: 10px;
     padding-bottom: 10px; }
@@ -2699,7 +2702,6 @@ button.swiper-pagination-bullet {
       -webkit-box-shadow: none;
               box-shadow: none;
       position: static;
-      padding-bottom: 15px;
       width: 100%;
       height: auto;
       background: none;
@@ -2714,13 +2716,13 @@ button.swiper-pagination-bullet {
         -webkit-flex-direction: column;
             -ms-flex-direction: column;
                 flex-direction: column;
-        padding-bottom: 20px; }
+        padding: 20px 0; }
       .electro-header_menu a {
         margin-top: 10px;
         margin-right: 0;
         color: #000; }
         .electro-header_menu a:first-child {
-          margin-left: 0; }
+          margin-top: 0; }
       .electro-header_menu a:after {
         display: none; }
   .kondi-main-banner {
@@ -2817,6 +2819,8 @@ button.swiper-pagination-bullet {
     .electro-footer_menu a {
       padding: 0;
       margin-bottom: 15px; }
+      .electro-footer_menu a:last-child {
+        margin-bottom: 0; }
   .electro-footer .links span {
     text-align: center; } }
 
@@ -2924,15 +2928,23 @@ button.swiper-pagination-bullet {
       padding-left: 20px;
       padding-right: 20px;
       text-align: center; }
-      .ac-review_item h5:last-of-type {
-        margin-top: 10px; }
+      .ac-review_item h5 {
+        margin-top: 20px; }
+        .ac-review_item h5:last-of-type {
+          margin-top: 10px;
+          margin-bottom: 10px; }
       .ac-review_item-content {
         padding-left: 0; }
     .ac-review .swiper-header {
       height: 60px; }
-      .ac-review .swiper-header .swiper-pagination-bullet {
-        font-size: 14px;
-        line-height: 14px; }
+      .ac-review .swiper-header .swiper-pagination {
+        -webkit-box-pack: space-evenly;
+        -webkit-justify-content: space-evenly;
+            -ms-flex-pack: space-evenly;
+                justify-content: space-evenly; }
+        .ac-review .swiper-header .swiper-pagination-bullet {
+          font-size: 14px;
+          line-height: 14px; }
   .kondi-warranty {
     margin-top: 30px; }
     .kondi-warranty h3 {
@@ -3055,7 +3067,10 @@ button.swiper-pagination-bullet {
       font-size: 20px;
       line-height: 20px; }
     .kondi-main-banner_trig {
-      margin: 20px auto;
+      margin-top: 15px;
+      margin-bottom: 20px;
+      margin-left: auto;
+      margin-right: auto;
       width: 75%; }
     .kondi-main-banner_form {
       padding-bottom: 30px; }
@@ -3167,19 +3182,17 @@ button.swiper-pagination-bullet {
     max-width: 260px; } }
 
 @media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
-  .ac-review .swiper-header .swiper-button-next::after {
-    width: 15px;
-    height: 15px;
-    border-top: 1px solid #fff;
-    border-right: 1px solid #fff;
-    -webkit-transform: rotate(45deg) translateY(2px) translateX(-2px);
-        -ms-transform: rotate(45deg) translateY(2px) translateX(-2px);
-            transform: rotate(45deg) translateY(2px) translateX(-2px); }
-  .ac-review .swiper-header .swiper-button-prev::after {
-    width: 15px;
-    height: 15px;
-    border-top: 1px solid #fff;
-    border-left: 1px solid #fff;
-    -webkit-transform: rotate(-45deg) translateY(3px) translateX(2px);
-        -ms-transform: rotate(-45deg) translateY(3px) translateX(2px);
-            transform: rotate(-45deg) translateY(3px) translateX(2px); } }
+  .ac-review .swiper-header .swiper-pagination {
+    -webkit-transform: translateY(-20px);
+        -ms-transform: translateY(-20px);
+            transform: translateY(-20px); }
+  .kondi-work_stage-wrapper {
+    opacity: 0; }
+  .kondi-work_stage__item {
+    width: 220px; }
+    .kondi-work_stage__item .description {
+      width: 220px; }
+    .kondi-work_stage__item:nth-of-type(4) {
+      -webkit-transform: translateX(50px) !important;
+          -ms-transform: translateX(50px) !important;
+              transform: translateX(50px) !important; } }
