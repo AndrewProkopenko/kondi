@@ -1,0 +1,912 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kondi24.ru - Ремонт холодильников </title> 
+     
+    <link rel="preload"  href="assets/css/style.css" as="style" >
+    
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/vendor.css">
+    
+    <link rel="shortcut icon" type="image/png" href="assets/favicon.ico">  
+</head>
+<body>
+    
+    <div id="top"></div>
+    <!-- header start --> 
+    <header> 
+        <div class="electro-header">
+            <div class="container-fluid position-relative">
+                <div class="container p-0 "> 
+                        <nav class="navbar navbar-expand-lg navbar-light pl-0 pr-0">
+                            <a class="electro-header_logo js-link-top" href="#top">
+                                <div class="electro-header_logo__image">
+                                    <svg>
+                                        <use xlink:href="#logo"></use>
+                                    </svg>
+                                </div>
+                                <div class="electro-header_logo__text">
+                                    <div>Kondi24.ru</div>
+                                    <div>Ремонт холодильников</div>
+                                </div>
+                            </a>
+                            <button class="navbar-toggler js-navbar-toggle button-menu-custom" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                                <span ></span>
+                                <i>
+                                    <svg class="d-none">
+                                        <use xlink:href="#close"></use>
+                                    </svg>
+                                </i>
+                            </button>
+            
+                            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                                <div class="electro-header_collapse">
+                                    <div class="electro-header_collapse__tools ">
+                                        <div class="electro-header_collapse__tools-select">
+                                            <label >Ваш город:</label>
+                                            <select  id="yourcity">
+                                                <option  >Санкт-Петербург</option> 
+                                                <option selected>Москва</option> 
+                                                <option>Ростов</option> 
+                                                <option>Волгоград</option>
+                                                <option>Воронеж</option>
+                                                <option>Екатеринбург</option>
+                                                <option>Казань</option>
+                                                <option>Киев</option>
+                                                <option>Красноярск</option>
+                                                <option>Минск</option>
+                                                <option>Нижний Новгород</option>
+                                                <option>Новосибирск</option>
+                                                <option>Омск</option> 
+                                            </select> 
+                                        </div>
+                                        <div class="electro-header_collapse__tools-phone">
+                                            <div class="number">
+                                            <div>
+                                                    <span>
+                                                        <svg> 
+                                                            <use xlink:href="#phone"></use>
+                                                        </svg> 
+                                                    </span>
+                                                    <a href="tel:++71111111111">+71111111111</a>
+                                            </div> 
+                                            </div>
+                                            <div class="btn-custom-header">
+                                                <button type="button"   data-service=""  data-toggle="modal" data-target="#exampleModal">
+                                                    <span>Заказать звонок</span>
+                                                </button> 
+                                            </div>
+                                        </div>
+                                    </div>
+                                    
+                                    <div class="navbar-nav electro-header_menu">
+                                        <div class="container px-lg-0 mobile-menu"> 
+                                            <a class="nav-item js-link" href="#price">Цены и услуги</a> 
+                                            <a class="nav-item js-link" href="#">Гарантии</a>  
+                                            <a class="nav-item js-link" href="#">Наши работы</a>  
+                                            <a class="nav-item js-link" href="#">Бренды</a>  
+                                            <a class="nav-item js-link" href="#contact">Контакты</a> 
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </nav> 
+                </div>
+            </div> 
+        </div> 
+    </header> 
+    <!-- header end -->
+
+  
+    <!-- main banner start  -->
+    <div class="kondi-main-banner">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-lg-9">
+                    <h1>
+                        Срочный ремонт холодильников в сервисе <br>
+                        или на дому от команды <span>частных</span> мастеров
+                    </h1>
+                    <div class="kondi-main-banner_trig">
+                        <div class="kondi-main-banner_trig__item">
+                            <span class="number">01</span>
+                            <span class="text">
+                                Скидка пенсионерам 
+                            </span>
+                        </div>
+                        <div class="kondi-main-banner_trig__item">
+                            <span class="number">02</span>
+                            <span class="text">
+                                Замена деталей. Гарантия 2 года. <br>    
+                                Выезд мастера и анализ (бесплатно)
+                            </span>
+                        </div>
+                        <div class="kondi-main-banner_trig__item">
+                            <span class="number">03</span>
+                            <span class="text">
+                                Оплата после выполнения  <br>
+                                работ
+                            </span>
+                        </div>
+                    </div>
+                    <div class="kondi-main-banner_form">
+                        <form>
+                            <div class="kondi_form">
+                                <div class="kondi_form__group">
+                                    <span>
+                                        <input type="tel" name="phone" placeholder="Ваш телефон">
+                                    </span>
+                                    <button type="submit">
+                                        <span>  Заказать звонок</span>
+                                    </button>
+                                </div>
+                                <span>
+                                    Нажимая на кнопку "Заказать звонок" Вы соглашаетесь на обработку Ваших данных
+                                </span>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="kondi-main-banner_image">
+                        <div class="image d-none d-lg-block" style="background-image: url(assets/img/main.png);"></div>
+                    </div>
+                </div>
+            </div>
+           
+        </div>
+    </div>
+    <!-- main banner end -->
+
+    <div id="price"></div>
+    <!-- price start -->
+    <div class="kondi-price heading">
+        <div class="container">
+            <h3>
+                Проблемы с холодильниками которые мы можем решить
+            </h3>
+            <div class="row">
+                <!-- item -->
+                <div class="col-6 col-md-4 col-lg-3">
+                    <div class="kondi-price_item">
+                        <div class="image" style="background-image: url(assets/img/price1.png);"></div>
+                        <div class="text">
+                            Не морозит
+                        </div>
+                        <button data-service="Не морозит"  data-toggle="modal" data-target="#exampleModal">
+                            от 550 рублей
+                        </button>
+                    </div>
+                </div>
+              
+                <!-- item -->
+                <div class="col-6 col-md-4 col-lg-3">
+                    <div class="kondi-price_item">
+                        <div class="image" style="background-image: url(assets/img/price2.png);"></div>
+                        <div class="text">
+                            Перемораживает
+                        </div>
+                        <button data-service="Перемораживает"  data-toggle="modal" data-target="#exampleModal">
+                            от 550 рублей
+                        </button>
+                    </div>
+                </div>
+              
+                <!-- item -->
+                <div class="col-6 col-md-4 col-lg-3">
+                    <div class="kondi-price_item">
+                        <div class="image" style="background-image: url(assets/img/price3.png);"></div>
+                        <div class="text">
+                            Не выключается
+                        </div>
+                        <button data-service="Не выключается"  data-toggle="modal" data-target="#exampleModal">
+                            от 550 рублей
+                        </button>
+                    </div>
+                </div>
+              
+                <!-- item -->
+                <div class="col-6 col-md-4 col-lg-3">
+                    <div class="kondi-price_item">
+                        <div class="image" style="background-image: url(assets/img/price4.png);"></div>
+                        <div class="text">
+                            Покрывается льдом
+                        </div>
+                        <button data-service="Покрывается льдом"  data-toggle="modal" data-target="#exampleModal">
+                            от 550 рублей
+                        </button>
+                    </div>
+                </div>
+              
+                <!-- item -->
+                <div class="col-6 col-md-4 col-lg-3">
+                    <div class="kondi-price_item">
+                        <div class="image" style="background-image: url(assets/img/price5.png);"></div>
+                        <div class="text">
+                            Протекает
+                        </div>
+                        <button data-service="Протекает"  data-toggle="modal" data-target="#exampleModal">
+                            от 550 рублей
+                        </button>
+                    </div>
+                </div>
+              
+                <!-- item -->
+                <div class="col-6 col-md-4 col-lg-3">
+                    <div class="kondi-price_item">
+                        <div class="image" style="background-image: url(assets/img/price6.png);"></div>
+                        <div class="text">
+                            Шумит
+                        </div>
+                        <button data-service="Шумит"  data-toggle="modal" data-target="#exampleModal">
+                            от 550 рублей
+                        </button>
+                    </div>
+                </div>
+              
+                <!-- item -->
+                <div class="col-6 col-md-4 col-lg-3">
+                    <div class="kondi-price_item">
+                        <div class="image" style="background-image: url(assets/img/price7.png);"></div>
+                        <div class="text">
+                            Работает только морозилка
+                        </div>
+                        <button data-service="Работает только морозилка"  data-toggle="modal" data-target="#exampleModal">
+                            от 550 рублей
+                        </button>
+                    </div>
+                </div>
+              
+                <!-- item -->
+                <div class="col-6 col-md-4 col-lg-3">
+                    <div class="kondi-price_item">
+                        <div class="image" style="background-image: url(assets/img/price8.png);"></div>
+                        <div class="text">
+                            Не морозит верхняя камера
+                        </div>
+                        <button data-service="Не морозит верхняя камера"  data-toggle="modal" data-target="#exampleModal">
+                            от 550 рублей
+                        </button>
+                    </div>
+                </div>
+              
+                <!-- item -->
+                <div class="col-6 col-md-4 col-lg-3">
+                    <div class="kondi-price_item">
+                        <div class="image" style="background-image: url(assets/img/price9.png);"></div>
+                        <div class="text">
+                            Не работает морозилка
+                        </div>
+                        <button data-service="Не работает морозилка"  data-toggle="modal" data-target="#exampleModal">
+                            от 550 рублей
+                        </button>
+                    </div>
+                </div>
+              
+                <!-- item -->
+                <div class="col-6 col-md-4 col-lg-3">
+                    <div class="kondi-price_item">
+                        <div class="image" style="background-image: url(assets/img/price10.png);"></div>
+                        <div class="text">
+                            Не работает
+                        </div>
+                        <button data-service="Не работает"  data-toggle="modal" data-target="#exampleModal">
+                            от 550 рублей
+                        </button>
+                    </div>
+                </div>
+              
+                <!-- item -->
+                <div class="col-6 col-md-4 col-lg-3">
+                    <div class="kondi-price_item">
+                        <div class="image" style="background-image: url(assets/img/price11.png);"></div>
+                        <div class="text">
+                            Включается и сразу <br>
+                            выключается 
+                        </div>
+                        <button data-service="Включается и сразу выключается"  data-toggle="modal" data-target="#exampleModal">
+                            от 550 рублей
+                        </button>
+                    </div>
+                </div>
+              
+                <!-- item -->
+                <div class="col-6 col-md-4 col-lg-3">
+                    <div class="kondi-price_item">
+                        <div class="image" style="background-image: url(assets/img/price12.png);"></div>
+                        <div class="text">
+                            Бьет током
+                        </div>
+                        <button data-service="Бьет током"  data-toggle="modal" data-target="#exampleModal">
+                            от 550 рублей
+                        </button>
+                    </div>
+                </div>
+              
+            </div>
+        </div>
+    </div>
+    <!-- price end -->
+
+    <!-- how we work start -->
+    <div class="kondi-work heading">
+            <div class="container">
+                <h3>
+                    Как мы работаем
+                </h3>
+                <h6>
+                    Важно: анализ неисправностей всегда лучше проводить на месте 
+                </h6>
+                <div class="kondi-work_center">
+                    <div class="image d-none d-lg-block" style="background-image: url(assets/img/work.png);"></div>
+                    <div class="text">
+                        <h5>
+                            Оплата ремонта по факту выполненных работ 
+                        </h5>
+                        <p>
+                            Начинаем работу после подисания договора. Оплатить наши услуги вы сможете без предоплаты, а по факту завершения всех работ.
+                        </p>
+                    </div>
+                </div>
+                <div class="kondi-work_stage">
+                   
+                    <div class="kondi-work_stage__item">
+                        <div class="number">01</div>
+                        <div class="image right" style="background-image: url(assets/img/stage1.png);"></div>
+                        <div class="title">
+                            Заявка, выезд <br> 
+                            специалиста  
+                        </div>
+                        <div class="description">
+                            Мастер прибудет к вам домой в назначенный срок, проведет квалифицированную бесплатную диагностику, а потом сообщит длительность и стоимость ремонта.
+                        </div>
+                    </div>
+                    <div class="kondi-work_stage__item">
+                        <div class="number">02</div>
+                        <div class="image right" style="background-image: url(assets/img/stage2.png);"></div>
+                        <div class="title">
+                            Заключение договора <br> 
+                            по ремонту холодильника 
+                          
+                        </div>
+                        <div class="description">
+                            Каждый этап ремонта и все планируемые работы тщательно обсуждаются еще до начала и фиксируются в договоре, который составляется на месте.
+                        </div>
+                    </div>
+                    <div class="kondi-work_stage__item">
+                        <div class="number">03</div>
+                        <div class="image left" style="background-image: url(assets/img/stage3.png);"></div>
+                        <div class="title">
+                            Ремонт холодильника  <br> 
+                            и гарантия на ремонт
+                        </div>
+                        <div class="description">
+                            Затем мастер переходит непосредственно к ремонту и устраняет все обнаруженные неисправности. 
+                        </div>
+                    </div>
+                    <div class="kondi-work_stage__item">
+                        <div class="number">04</div>
+                        <div class="image left" style="background-image: url(assets/img/stage4.png); left: 20px"></div>
+                        <div class="title">
+                            Конец ремонта  <br> 
+                            и рекомендации  <br>
+                            по эксплуатации
+                        </div>
+                        <div class="description">
+                            Клиент оценивает качество ремонта, забирает гарантийный талон, а потом оплачивает работу. 
+                        </div>
+                    </div>
+                    <div class="kondi-work_stage-wrapper d-none d-xl-block" style="background-image: url(assets/img/wrapper.png);"></div>
+                </div>
+            </div>
+    </div>
+    <!-- how we work end -->
+ 
+    <!-- swiper reviews start -->
+    <div id="reviews"></div>
+    <div class="ac-review-el container"></div>
+    <div class="ac-review heading">
+        <div class="container">
+            <h3>
+                Наши последние 
+               <span>ремонты</span>
+               холодильников
+            </h3>
+            <div class="swiper-container">
+
+                <div class="swiper-header"> 
+                    <div class="swiper-pagination"></div> 
+                </div>
+
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <div class="ac-review_item">
+                            <div class="ac-review_item-image d-none d-lg-block" style="background-image: url(assets/img/rev1.jpg);"></div>
+                            <div class="ac-review_item-content">
+                            <h5>
+                                Проблема
+                            </h5>
+                            <p>
+                                    Холодильник не морозит
+                            </p>
+                            <h5>
+                                Что сделали?
+                            </h5>
+                            <p>  
+                                    Относительно новый холодильник LG почему-то перестал выполнять свою основную функцию. Пришлось искать специалистов, которые опознали бы проблему и исправили все. Наткнулся на эту фирму, тут же связался с операторами. Они быстро мне назначили мастера. Тот приехал и почти сходу сказал, что надо менять фреон. Довольно быстро все сделал. За диагностику денег не брал. После того, как ушел, проблем до сих пор не возникало. 
+                            </p>
+                            <div class="ac-review_item-content-form">
+                                    <form>
+                                        <div class="kondi_form">
+                                            <div class="kondi_form__group">
+                                                <span>
+                                                    <input type="tel" name="phone" placeholder="Ваш телефон">
+                                                </span>
+                                                <button type="submit">
+                                                    <span>Оставить заявку</span>
+                                                </button>
+                                            </div>
+                                            <span>
+                                                Нажимая на кнопку "Оставить заявку" Вы соглашаетесь на обработку Ваших данных
+                                            </span>
+                                        </div>
+                                    </form>
+                            </div>
+                            </div>
+                        
+                        </div>
+                    </div> 
+                    <div class="swiper-slide">
+                        <div class="ac-review_item">
+                            <div class="ac-review_item-image d-none d-lg-block" style="background-image: url(assets/img/rev2.jpg);"></div>
+                            <div class="ac-review_item-content">
+                            <h5>
+                                Проблема
+                            </h5>
+                            <p>
+                                Сломалась дверца
+                            </p>
+                            <h5>
+                                Что сделали?
+                            </h5>
+                            <p>  
+                                Один из немногих сервисных центров, готовых браться вообще за любой ремонт. В других вам реально могут отказать даже в таком плевом деле как ремонт дверцы. Здесь же еще по телефону сказали, что все без проблем починят и надо только оформить заявку да дождаться мастера. К счастью, не пришлось его долго ждать. Прибыл в тот же день со всем необходимым инструментарием. Буквально за полчаса все отремонтировал. Быстро, качественно и не особо дорого.
+
+                            </p>
+                            <div class="ac-review_item-content-form">
+                                    <form>
+                                        <div class="kondi_form">
+                                            <div class="kondi_form__group">
+                                                <span>
+                                                    <input type="tel" name="phone" placeholder="Ваш телефон">
+                                                </span>
+                                                <button type="submit">
+                                                    <span>Оставить заявку</span>
+                                                </button>
+                                            </div>
+                                            <span>
+                                                Нажимая на кнопку "Оставить заявку" Вы соглашаетесь на обработку Ваших данных
+                                            </span>
+                                        </div>
+                                    </form>
+                            </div>
+                            </div>
+                        
+                        </div>
+                    </div> 
+                    <div class="swiper-slide">
+                        <div class="ac-review_item">
+                            <div class="ac-review_item-image d-none d-lg-block" style="background-image: url(assets/img/rev3.jpg);"></div>
+                            <div class="ac-review_item-content">
+                            <h5>
+                                Проблема
+                            </h5>
+                            <p>
+                                Сломались индикаторы
+                            </p>
+                            <h5>
+                                Что сделали?
+                            </h5>
+                            <p>  
+                                Очень повезло с этими мастерами. Дело было так в общем. В холодильнике перестали работать индикаторы и освещение буквально за день до окончания гарантийного обслуживания. Остался вариант только со специализированным сервисным центром. Ни разу не пожалела об обращении сюда. Реально работают профессионалы, которые за час все вернули в рабочее состояние прямо дома. Ставлю пятерки и за обслуживание и за скорость и за манеру общения.
+
+                            </p>
+                            <div class="ac-review_item-content-form">
+                                    <form>
+                                        <div class="kondi_form">
+                                            <div class="kondi_form__group">
+                                                <span>
+                                                    <input type="tel" name="phone" placeholder="Ваш телефон">
+                                                </span>
+                                                <button type="submit">
+                                                    <span>Оставить заявку</span>
+                                                </button>
+                                            </div>
+                                            <span>
+                                                Нажимая на кнопку "Оставить заявку" Вы соглашаетесь на обработку Ваших данных
+                                            </span>
+                                        </div>
+                                    </form>
+                            </div>
+                            </div>
+                        
+                        </div>
+                    </div> 
+                    <div class="swiper-slide">
+                        <div class="ac-review_item">
+                            <div class="ac-review_item-image d-none d-lg-block" style="background-image: url(assets/img/rev4.jpg);"></div>
+                            <div class="ac-review_item-content">
+                            <h5>
+                                Проблема
+                            </h5>
+                            <p>
+                                Холодильник загудел 
+                            </p>
+                            <h5>
+                                Что сделали?
+                            </h5>
+                            <p>  
+                                В холодильнике появился какой-то ненормальный шум. Позвонила в эту фирму. Консультант на линии дал предположения по возможным проблемам и сразу оформил заявку на выезд мастера. Тот приехал уже через час. Всего от звонка спецам до вновь нормально работающего холодильника прошло от сила часа 3. Мастер оказался лояльным, приятным человеком. Все пояснял, выдал гарантию. Взял деньги только проверки техники. Все честно и прозрачно.
+                            </p>
+                            <div class="ac-review_item-content-form">
+                                    <form>
+                                        <div class="kondi_form">
+                                            <div class="kondi_form__group">
+                                                <span>
+                                                    <input type="tel" name="phone" placeholder="Ваш телефон">
+                                                </span>
+                                                <button type="submit">
+                                                    <span>Оставить заявку</span>
+                                                </button>
+                                            </div>
+                                            <span>
+                                                Нажимая на кнопку "Оставить заявку" Вы соглашаетесь на обработку Ваших данных
+                                            </span>
+                                        </div>
+                                    </form>
+                            </div>
+                            </div>
+                        
+                        </div>
+                    </div> 
+                  
+                </div>
+                
+            </div>
+        </div>
+    </div>
+    <!-- swiper reviews end --> 
+
+    <!-- warranty start -->
+    <div class="kondi-warranty heading">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-lg-6">
+                    <h3>
+                        <span>
+                            2 года гарантии
+                        </span> <br>
+                        на работу и запчасти
+                    </h3>
+                    <div class="kondi-warranty-horizontal_line"></div>
+                    <p>
+                        Если какие-то недочеты ремонта проявятся в течение гарантийного срока, вы всегда можете обратиться к нам. Мы устраним любую проблему.
+                    </p>
+                    <div class="kondi-warranty_form">
+                        <form>
+                            <div class="kondi_form">
+                                <div class="kondi_form__group">
+                                    <span>
+                                        <input type="tel" name="phone" placeholder="Ваш телефон">
+                                    </span>
+                                    <button type="submit">
+                                        <span>Оставить заявку</span>
+                                    </button>
+                                </div>
+                                <span>
+                                    Нажимая на кнопку "Оставить заявку" Вы соглашаетесь на обработку Ваших данных
+                                </span>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-6">
+                    <div class="kondi-warranty_image">
+                        <div class="image d-none d-lg-block" style="background-image: url(assets/img/warranty.png);"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- warranty end -->
+
+    <!-- masters start  -->
+    <div class="kondi-masters heading">
+        <div class="container p-md-0">
+            <h3>
+                <span>Наши опытные</span> специалисты
+            </h3>
+            <div class="row">
+                <div class="col-6 col-lg-3">
+                    <div class="kondi-masters_item">
+                        <div class="image" style="background-image: url(assets/img/master1.jpg);"></div>
+                        <div class="name">
+                            Олег Винидиктович 
+                        </div>
+                        <div class="horizontal_line"></div>
+                        <p>
+                            Мастер по обслуживанию
+                        </p>
+                        <p>
+                            Опыт работы 5 лет  
+                        </p>
+                    </div>
+                </div>
+                <div class="col-6 col-lg-3">
+                    <div class="kondi-masters_item">
+                        <div class="image" style="background-image: url(assets/img/master2.jpg);"></div>
+                        <div class="name">
+                           Сергей Александович
+                        </div>
+                        <div class="horizontal_line"></div>
+                        <p>
+                            Помощник мастера
+                        </p>
+                        <p>
+                            Опыт работы 3 года  
+                        </p>
+                    </div>
+                </div>
+                <div class="col-6 col-lg-3">
+                    <div class="kondi-masters_item">
+                        <div class="image" style="background-image: url(assets/img/master3.jpg);"></div>
+                        <div class="name">
+                            Олег Сергеевич 
+                        </div>
+                        <div class="horizontal_line"></div>
+                        <p>
+                            Старший мастер по обслуживанию
+                        </p>
+                        <p>
+                            Опыт работы 4 года  
+                        </p>
+                    </div>
+                </div>
+                <div class="col-6 col-lg-3">
+                    <div class="kondi-masters_item">
+                        <div class="image" style="background-image: url(assets/img/master4.jpg);"></div>
+                        <div class="name">
+                            Артем Сергеевич 
+                        </div>
+                        <div class="horizontal_line"></div>
+                        <p>
+                            Мастер по обслуживанию
+                        </p>
+                        <p>
+                            Опыт работы 5 лет  
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- masters end -->
+
+    <!-- form start  -->
+    <div class="kondi-form">
+        <div class="container-fluid">
+            <div class="container p-md-0">
+                <div class="kondi-form_content">
+                    <h5>
+                        Наш мастер проведет бесплатную диагностику
+                    </h5>
+                    <div class="kondi-form_content_item">
+                        <h3>
+                            Вызвать специалиста
+                        </h3>
+                        <h4>
+                            Перезвоним в течение 1 минуты!
+                        </h4>
+                        <p>
+                            Оставьте заявку и наши специалисты ответят на любые ваши вопросы
+                        </p>
+                        <div class="kondi-form_content_item_form">
+                            <form>
+                                <div class="kondi_form">
+                                    <div class="kondi_form__group">
+                                        <span>
+                                            <input type="text" name="name" placeholder="Ваше имя">
+                                        </span>
+                                        <span>
+                                            <input type="tel" name="phone" placeholder="Ваш телефон">
+                                        </span>
+                                        <span>
+                                            <textarea name="text"  cols="30" rows="10" placeholder="Опишите ситуацию"></textarea>
+                                        </span>
+                                        <button type="submit">
+                                            <span>  Заказать звонок</span>
+                                        </button>
+                                    </div>
+                                    <span>
+                                        Нажимая на кнопку "Заказать звонок" Вы соглашаетесь на обработку Ваших данных
+                                    </span>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- form end  -->
+
+    <!-- map start   -->
+    <div class="kondi-map" style="background-color: #ff6f64; display: flex; align-items: center ; justify-content: center;"> map </div>
+    <!-- map end -->
+
+  <!-- footer start -->
+  <footer>
+    <div class="container p-md-0">
+        <div class="electro-footer">
+            <div class="electro-footer-container "> 
+                <a class="electro-footer_logo js-link" href="#top"> 
+                    <div class="electro-footer_logo__image">
+                        <svg>   
+                            <use xlink:href="#logo"></use>
+                        </svg>
+                    </div>
+                    <div class="electro-footer_logo__text"> 
+                            <div>Kondi24.ru</div>
+                            <div>Ремонт холодильников</div> 
+                    </div> 
+                </a>
+                <div class="electro-footer_menu"> 
+                    <a class="nav-item js-link" href="#price">Цены и услуги</a> 
+                    <a class="nav-item js-link" href="#">Гарантии</a>  
+                    <a class="nav-item js-link" href="#">Наши работы</a>  
+                    <a class="nav-item js-link" href="#">Бренды</a>  
+                    <a class="nav-item js-link" href="#contact">Контакты</a> 
+                </div>
+                <div class="electro-footer_tools ">
+                            
+                    <div class="electro-footer_tools-phone"> 
+                        <div class="number"> 
+                            <a href="tel:+71111111111">
+                                <svg>
+                                    <use xlink:href="#phone"></use>
+                                </svg>
+
+                                +71111111111
+                            </a>
+                        </div>
+                        <div class="btn-custom-header">
+                            <button type="button"   data-service=""  data-toggle="modal" data-target="#exampleModal"> 
+                                    <span>
+                                        Вызвать мастера
+                                    </span>
+                            </button> 
+                        </div>
+                    </div>
+                </div>
+            
+            </div>
+            <div class="links">
+                <a href="#">
+                    Политика конфиденциальности
+                </a>
+                <span>
+                    Представленная информация на сайте не является публичной офертой
+                </span>
+            </div>
+        </div>
+    </div>
+</footer>
+<!-- footer end -->
+
+  
+    <!-- Modal -->
+    <div class="service-modal modal fade" id="exampleModal" tabindex="-1" role="dialog"   aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+        <div class="modal-header"> 
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true"> 
+                <span class="modal-close">
+                    <svg>
+                        <use xlink:href="#close"></use>
+                    </svg>
+                </span>
+            </span>
+            </button>
+        </div>
+        <div class="modal-body">
+            <div class="service-modal-container">
+                
+                <div class="service-modal-container__item">
+                     
+                    <h3>
+                        Связь с нами
+                    </h3>
+                    <h6>Заполните форму ниже и мы перезвоним Вам через 5 минут</h6>
+                    
+                    
+                    <form name="modalForm" > 
+                        
+                        
+                        <span>
+                            <input id="js-form-service" name="service" value='12' type="hidden">
+                        </span>
+                        
+                        <span>
+                            <input name="name" type="text" placeholder="Ваше имя" required>
+                        </span>
+                        <span>
+                            <input name="phone" type="tel" placeholder="Ваш телефон" required> 
+                        </span>
+                        <div class="btn-custom-header ">
+                            <button type="submit">
+                                <span>Cвязаться с нами</span>
+                            </button>
+                        </div>
+                    </form>
+                    <span>Нажимая кнопку "Cвязаться с нами" Вы соглашаетесь на обработку Ваших персональных данных</span>
+                </div>
+            </div>
+        </div>
+            
+        </div>
+    </div>
+    </div>
+ 
+
+
+<svg display="none"> 
+   
+
+    <symbol id="logo"  viewBox="0 0 512 512">
+        <g><g id="XMLID_418_"><g><g id="XMLID_1020_"><g id="XMLID_1044_"><g id="XMLID_1045_"><g id="XMLID_1046_"><g id="XMLID_1047_"><g id="XMLID_1048_"><g id="XMLID_1063_"><g id="XMLID_1064_"><g id="XMLID_1065_"><g id="XMLID_1066_"><g id="XMLID_1067_"><g id="XMLID_1068_"><g id="XMLID_1069_"><g id="XMLID_1070_"><circle cx="256" cy="256" fill="#ff908a" r="256"/></g></g></g></g></g></g></g></g></g></g></g></g></g></g></g></g><path d="m512 256c0-30.72-5.417-60.174-15.338-87.465l-113.979-113.979-247.786 396.802 50.892 50.892c22.311 6.35 45.864 9.75 70.211 9.75 141.385 0 256-114.615 256-256z" fill="#ff6f64"/><g><g><path d="m168.232 439.949h44.537v37.973h-44.537z" fill="#9eb2b7" transform="matrix(0 -1 1 0 -268.436 649.436)"/><path d="m299.232 439.949h44.537v37.973h-44.537z" fill="#75919b" transform="matrix(0 -1 1 0 -137.436 780.436)"/></g><path d="m352.399 460.206h-192.798c-21.522 0-39.131-17.609-39.131-39.131v-189.768l16.53-18.987-16.53-18.986v-114.074c0-21.522 17.609-39.131 39.131-39.131h192.797c21.522 0 39.131 17.609 39.131 39.131v114.074l-12.529 18.987 12.53 18.987v189.767c0 21.522-17.609 39.131-39.131 39.131z" fill="#fff"/><path d="m391.53 79.26v341.81c0 21.53-17.61 39.14-39.13 39.14h-96.4v-420.08h96.4c21.52 0 39.13 17.61 39.13 39.13z" fill="#e9edf5"/><path d="m120.47 193.334h271.06v37.973h-271.06z" fill="#9eb2b7"/><g fill="#75919b"><path d="m256 193.33h135.53v37.98h-135.53z"/><path d="m299.751 103.098h65.637v37.973h-65.637z" transform="matrix(0 -1 1 0 210.485 454.654)"/><path d="m299.751 285.606h65.637v37.973h-65.637z" transform="matrix(0 -1 1 0 27.977 637.163)"/></g></g></g>
+    </symbol>
+
+    <symbol id="close"  viewBox="0 0 241.171 241.171">
+        <g>
+            <path id="Close" d="M138.138,120.754l99.118-98.576c4.752-4.704,4.752-12.319,0-17.011c-4.74-4.704-12.439-4.704-17.179,0
+                l-99.033,98.492L21.095,3.699c-4.74-4.752-12.439-4.752-17.179,0c-4.74,4.764-4.74,12.475,0,17.227l99.876,99.888L3.555,220.497
+                c-4.74,4.704-4.74,12.319,0,17.011c4.74,4.704,12.439,4.704,17.179,0l100.152-99.599l99.551,99.563
+                c4.74,4.752,12.439,4.752,17.179,0c4.74-4.764,4.74-12.475,0-17.227L138.138,120.754z"/>
+            <g>
+            </g>
+            <g>
+            </g>
+            <g>
+            </g>
+            <g>
+            </g>
+            <g>
+            </g>
+            <g>
+            </g>
+        </g>
+    </symbol>  
+  
+    <symbol id="phone"  viewBox="0 0 513.64 513.64">
+        <g>
+            <g>
+                <path d="M499.66,376.96l-71.68-71.68c-25.6-25.6-69.12-15.359-79.36,17.92c-7.68,23.041-33.28,35.841-56.32,30.72
+                    c-51.2-12.8-120.32-79.36-133.12-133.12c-7.68-23.041,7.68-48.641,30.72-56.32c33.28-10.24,43.52-53.76,17.92-79.36l-71.68-71.68
+                    c-20.48-17.92-51.2-17.92-69.12,0l-48.64,48.64c-48.64,51.2,5.12,186.88,125.44,307.2c120.32,120.32,256,176.641,307.2,125.44
+                    l48.64-48.64C517.581,425.6,517.581,394.88,499.66,376.96z"/>
+            </g>
+        </g>
+    </symbol> 
+   
+</svg>
+
+
+<script src="assets/js/vendor.min.js"></script> 
+<script src="assets/js/script.min.js"></script> 
+ 
+
+</body>
+</html>
