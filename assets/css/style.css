@@ -256,7 +256,6 @@ header.sticky {
     fill: #646464; }
 
 .electro-header {
-  background: white;
   margin-bottom: 40px; }
   .electro-header .navbar {
     position: static;
@@ -2459,6 +2458,20 @@ button.swiper-pagination-bullet {
             order: 3 !important; } }
 
 @media screen and (min-width: 992px) {
+  header.sticky .electro-header_logo__image {
+    width: 45px;
+    height: 45px; }
+    header.sticky .electro-header_logo__image svg {
+      -webkit-transition: 300ms ease;
+      -o-transition: 300ms ease;
+      transition: 300ms ease;
+      width: 45px;
+      height: 45px; }
+  header.sticky .electro-header_logo__text {
+    margin-left: 10px;
+    font-size: 20px; }
+    header.sticky .electro-header_logo__text div:last-child {
+      font-size: 9px; }
   header.sticky .btn-custom-header button {
     padding: 10px 15px; }
   header.sticky .mobile-menu {
@@ -2631,20 +2644,6 @@ button.swiper-pagination-bullet {
             order: 3; } }
 
 @media screen and (max-width: 1200px) {
-  header.sticky .electro-header_logo__image {
-    width: 45px;
-    height: 45px; }
-    header.sticky .electro-header_logo__image svg {
-      -webkit-transition: 300ms ease;
-      -o-transition: 300ms ease;
-      transition: 300ms ease;
-      width: 45px;
-      height: 45px; }
-  header.sticky .electro-header_logo__text {
-    margin-left: 10px;
-    font-size: 20px; }
-    header.sticky .electro-header_logo__text div:last-child {
-      font-size: 9px; }
   .kondi-work_stage {
     margin-top: 30px; }
   .ac-review_item-image {
@@ -2663,6 +2662,7 @@ button.swiper-pagination-bullet {
     header.sticky .electro-header_menu a {
       margin-right: 0 !important; }
   .electro-header {
+    background: white;
     margin-bottom: 0;
     padding-top: 10px;
     padding-bottom: 10px; }
@@ -3044,11 +3044,11 @@ button.swiper-pagination-bullet {
     font-size: 18px;
     line-height: 18px; }
   .electro-header_logo__image svg {
-    width: 40px;
-    height: 40px; }
+    width: 40px !important;
+    height: 40px !important; }
   .electro-header_logo__text {
-    margin-left: 10px;
-    font-size: 18px; }
+    margin-left: 10px !important;
+    font-size: 18px !important; }
   .electro-header_collapse__tools-select {
     margin-left: 0; }
   .electro-header_collapse__tools-phone {
