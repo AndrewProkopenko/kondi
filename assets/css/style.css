@@ -16,6 +16,11 @@ html, body {
   .heading h3 span {
     color: #ff6f64; }
 
+#contacts {
+  -webkit-transform: translateY(-50px);
+      -ms-transform: translateY(-50px);
+          transform: translateY(-50px); }
+
 #price {
   -webkit-transform: translateY(-30px);
       -ms-transform: translateY(-30px);
@@ -2255,10 +2260,10 @@ button.swiper-pagination-bullet {
     display: -webkit-flex;
     display: -ms-flexbox;
     display: flex;
-    -webkit-box-pack: justify;
-    -webkit-justify-content: space-between;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
+    -webkit-box-pack: end;
+    -webkit-justify-content: flex-end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
     margin-top: 20px; }
     .electro-footer .links a {
       position: relative;
@@ -2528,7 +2533,7 @@ button.swiper-pagination-bullet {
             transition: 300ms ease; }
             header.sticky .electro-header_collapse__tools-phone .number a:hover {
               text-decoration: none;
-              color: #00b879; }
+              color: #ff6f64; }
           header.sticky .electro-header_collapse__tools-phone .number span.city {
             color: #000;
             text-align: right;
@@ -2626,6 +2631,20 @@ button.swiper-pagination-bullet {
             order: 3; } }
 
 @media screen and (max-width: 1200px) {
+  header.sticky .electro-header_logo__image {
+    width: 45px;
+    height: 45px; }
+    header.sticky .electro-header_logo__image svg {
+      -webkit-transition: 300ms ease;
+      -o-transition: 300ms ease;
+      transition: 300ms ease;
+      width: 45px;
+      height: 45px; }
+  header.sticky .electro-header_logo__text {
+    margin-left: 10px;
+    font-size: 20px; }
+    header.sticky .electro-header_logo__text div:last-child {
+      font-size: 9px; }
   .kondi-work_stage {
     margin-top: 30px; }
   .ac-review_item-image {
